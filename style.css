@@ -1,0 +1,167 @@
+/* ==== GENERAL STYLES ==== */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  
+  /* ==== LAYOUT STYLES ==== */
+  
+  body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://i.imgur.com/3rgWM7R.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 1rem;
+    color: #444349;
+    letter-spacing: .025rem;
+  }
+  
+  #location, #contact, .content, .skills, .experiences, .education {
+    width: 100%;
+    margin: 1.5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+  }
+  
+  table {
+    
+  }
+  
+  table, th, td, caption {
+    border: .75px solid #e3f0e8;
+    border-collapse: collapse;
+    line-height: 1.25rem;
+    padding: .5rem;
+  }
+  
+  /* === HEADLINE STYLES === */
+  
+  .headline {
+    width: 90%;
+    text-align: center;
+    margin: 1.5rem auto;
+    margin-top: 3rem;
+    padding: .5rem 1rem;
+    background-color: hsla(143, 10%, 90%, .7);
+    border-radius: 5px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 70px;
+  }
+  
+  img {
+    width: 80%;
+    border-radius: 50%;
+    padding: .07rem;
+    background-color: #6a9c81;
+    transition: all 0.5s ease-in-out;
+    filter: grayscale(30%);
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: -1.5rem;
+  }
+  
+  #location {
+    font-style: italic;
+    font-weight: 600;
+  }
+  
+  #contact {
+    letter-spacing: .8rem;
+    font-size: 2.4rem;
+    margin-top: -1.5rem;
+    margin-bottom: -0.25rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin-bottom: .5rem;
+  }
+    
+  li {
+    display: inline;
+  }
+  
+  i {
+    color: hsla(0, 0%, 20%, .6);
+  }
+  
+  #linkedin, #github, #instagram {
+    transition: all 0.7s ease-in-out;
+  }
+    
+  #linkedin:hover, #github:hover, #instagram:hover {
+    transform: scale(1.3);
+    filter: grayscale(30%);
+    color: hsla(157, 48%, 37%, .9);
+  }
+  
+  
+  /* === CONTENT STYLES === */
+  
+  .content {
+    width: 90%;
+    text-align: center;
+    background-color: hsla(151, 7%, 35%, .7);
+    border-radius: 5px;
+    box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 70px;
+    color: #e3f0e8;
+  }
+  
+  /* ABOUT */
+  .about {
+    margin: 0 auto;
+    padding: 5% 0;
+    margin-top: .4rem;
+    margin-bottom: 1.5rem;
+    font-size: .85rem;
+    display: block;
+    line-height: 1.4rem;
+  }
+  
+  /* SKILLS */
+  .skills {
+    margin: -2rem 0;
+  }
+  
+  .content table {
+    display: table;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: .025rem;
+  }
+  
+  table i {
+    color: #e3f0e8;
+  }
+  
+  td {
+    font-size: .9rem;
+    border-top: 2rem;
+    text-align: center;
+  }
+  
+  
+  /* EXPERIENCES */
+  .experiences {
+    margin: -2rem 0;
+  }
+  
+  .experiences-lines {
+    line-height: 1.75rem;
+  }
+  
+  .date {
+    font-size: .7rem;
+  }

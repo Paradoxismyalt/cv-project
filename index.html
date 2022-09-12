@@ -4,59 +4,95 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Hudáky Andrea CV</title>
+  <script src="https://kit.fontawesome.com/1331888c7c.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
   <div class="CV">
 
-    <div class="head">
-      <div class="profile-image">
+    <div class="headline">
+      <div id="profile-image">
         <img src="https://i.imgur.com/1rW1hce.jpeg" alt="Hudáky Andrea">
-      </div>
-  
-      <div class="name-headline">
         <h1>Hudáky Andrea</h1>
         <p id="location"> <i class="fa fa-map-marker"></i> Budapest</p>
       </div>
   
-      <div class="contact">
+      <div id="contact">
         <ul>
-            <li><a target="_blank" href="https://www.linkedin.com/in/andreahudaky/" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true" id="linkedin"></i></a></li>
-            <li><a target="_blank" href="https://github.com/Paradoxismyalt" title="github"><i class="fa fa-github" aria-hidden="true" id="github"></i></a></li>
-            <li><a target="_blank" href="https://www.instagram.com/paradoxismynormal/" title="instagram"><i class="fa fa-instagram" aria-hidden="true" id="instagram"></i></a></li>
-          </ul>
+            <li><a target="_blank" href="https://www.linkedin.com/in/andreahudaky/" title="LinkedIn"><i class="fa-brands fa-linkedin" aria-hidden="true" id="linkedin"></i></a></li>
+            <li><a target="_blank" href="https://github.com/Paradoxismyalt" title="github"><i class="fa-brands fa-github" aria-hidden="true" id="github"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/paradoxismynormal/" title="instagram"><i class="fa-brands fa-instagram" aria-hidden="true" id="instagram"></i></a></li>
+        </ul>
       </div>
   
     </div>
   
   
     <div class="content">
-      <p class="about">Jelenleg online tartalomgyártással foglalkozom, emellett pedig online és print grafikákat készítek. Olyan életszakaszhoz jutottam, amikor nagyobb kihívásra vágyom - ezért fordultam a programozás felé. Mivel a frontend érdekel, így most elsődlegesen az esztétikus design, a userbarát felépítés és a háttérben meghúzódó pszichológia-szál pörgeti az agyamat.</p>
-      
-      <p class="skills">Eszközök</p>
-        <ul>
-            <li><i class="fa fa-linkedin" aria-hidden="true" id="photoshop"></i></li>
-            <li><i class="fa fa-github" aria-hidden="true" id="illustrator"></i></li>
-            <li><i class="fa fa-instagram" aria-hidden="true" id="html"></i></li>
-            <li><i class="fa fa-instagram" aria-hidden="true" id="css"></i></li>
-        </ul>
-      
-      <p class="experiences">Tapasztalatok</p>
-        <ul>
-            <li>Online tartalomgyártó - Urban Garden Kft. <br>2021 -</li>
-            <li>Marketing munkatárs - Országos Vérellátó Szolgálat <br> 2017 - 2021.</li>
-            <li>Újságíró - μszaki magazin (Óbudai Egyetem) <br>2015 - 2020.</li>
-        </ul>
-      
-      <p class="education">Tanulmányok</p>
-        <ul>
-            <li>CodeBerry Programming School - Weboldal készítés tanfolyam <br>HTML, CSS, JavaScript</li>
-            <li>xLaboratories - UX designer<br>Figma, UX szemléletmód</li>
-            <li>Szent István Egyetem - Marketing MSc.</li>
-            <li>Óbudai Egyetem - Műszaki menedzser BSc.</li>
-        </ul>
-                 
-    </div>
+      <p class="about">Jelenleg online tartalomgyártással foglalkozom, emellett online és print grafikákat készítek. Egy ideje nagyobb kihívásra vágyom, ezért fordultam a programozás - főként a frontend felé. Elsődlegesen az esztétikus design, a userbarát felépítés és mindennek a hátterében működő pszichológia érdekel.</p>
         
+      <div class="skills">
+        <table>
+          <caption>Eszközök</caption>
+          <tr>
+            <th><i class="fa-solid fa-eye-dropper"></i></th>
+            <th><i class="fa-solid fa-pen-nib"></i></th>
+            <th><i class="fa fa-code"></i></th>
+            <th><i class="fa-solid fa-splotch"></i></th>
+          </tr>
+          <tr>
+            <td>PS</td>
+            <td>AI</td>
+            <td>HTML</td>
+            <td>CSS</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="experiences">
+        <table>
+          <caption>Tapasztalatok</caption>
+          <tr>
+            <td>Online tartalomgyártó</td>
+            <td>Urban Garden Kft.<br><span class="date">2021-</span></td>
+          </tr>
+          <tr>
+            <td>Marketing munkatárs</td>
+            <td>Országos Vérellátó Szolgálat<br><span class="date">2017 - 2021.</span></td>
+          </tr>
+          <tr>
+            <td>Újságíró</td>
+            <td>μszaki magazin - Óbudai Egyetem<br><span class="date">2015 - 2020.</span></td>
+          </tr>
+        </table>
+      </div>
+      
+      <div class="education">
+        <table> 
+          <caption>Tanulmányok</caption>
+          <tr>
+            <td>Weboldal készítés tanfolyam</td>
+            <td>CodeBerry Programming School<br><span class="date">2022.</span></td>
+          </tr>
+          <tr>
+            <td>UX designer képzés</td>
+            <td>xLaboratories<br><span class="date">2019.</span></td>
+          </tr>
+          <tr>
+            <td>Marketing MSc.</td>
+            <td>Szent István Egyetem<br><span class="date">2016 - 2018.</span></td>
+          </tr>
+          <tr>
+            <td>Műszaki menedzser BSc.</td>
+            <td>Óbudai Egyetem<br><span class="date">2012 - 2016.</span></td>
+          </tr>
+        </table>
+      </div>  
+   
+    </div>
+       
   </div>
 </body>
 </html>
